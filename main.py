@@ -1,8 +1,8 @@
 def sum_digits(number):
     number_str = str(number)
     digit_sum = 0
-    for digit in number_str:
-        digit_sum += int(digit)
+    for i in number_str:
+        digit_sum += int(i)
     return digit_sum
 
 
